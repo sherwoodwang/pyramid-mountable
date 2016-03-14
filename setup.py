@@ -14,10 +14,10 @@ setup(name='pyramid_mountable',
       author='Sherwood Wang',
       author_email='sherwood@wang.onl',
       packages=find_packages(),
+      zip_safe=True,
       install_requires=[
           'pyramid',
           'venusian',
           'zope.interface',
-          'zope.proxy',
-      ]
-      )
+          'zope.proxy'
+      ])
